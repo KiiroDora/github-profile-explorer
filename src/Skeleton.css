@@ -1,0 +1,94 @@
+/* User Card Skeleton */
+
+.skeleton{
+    position: absolute;
+
+    height: 277px;
+    width: 548px;
+    left: 0px;
+    top: 56px;
+  
+    background: #0A0A0A;
+    border: 1px solid #292929;
+    border-radius: 4px;
+
+    animation: color-change 2s infinite;
+}
+
+.skeleton.text {
+    position: absolute;
+
+    background: #222222;
+
+    top: 50%;
+    left: 35%;
+    width: 30%;
+    height: 17px;
+}
+
+.skeleton.subtitle {
+    position: absolute;
+
+    background: #222222;
+
+    top: 70%;
+    left: 40%;
+    width: 20%;
+    height: 11px;
+}
+
+.skeleton.avatar {
+    background: #222222;
+
+    position: absolute;
+
+    top: 0px;
+    left: 40%;
+    height: 112px;
+    width: 112px;
+
+    border-radius: 100px;
+}
+
+
+/* Repo Skeleton */
+
+.skeleton.headTitle {
+    background: #222222;
+
+    position: absolute;
+
+    left: 38%;
+    top:  10%;
+
+    height: 17px;
+    width: 25%;
+}
+
+.skeleton.title {
+    background: #222222;
+
+    left: 5%;
+    top:  25%;
+
+    height: 17px;
+    width: 25%;
+}
+
+.skeleton.description{
+    background: #222222;
+
+    left: 5%;
+    top: 55%;
+
+    height: 17px;
+    width: 50%;
+}
+
+/* Animation */
+
+@keyframes color-change {
+    0% { background-color: #222222;}
+    50% { background-color: #484848;}
+    100% { background-color: #222222;}
+}

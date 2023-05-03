@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Roboto Mono";
+  color: #FFFFFF;
+  background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'Roboto Mono',
+    monospace;
+}
+
+/* Home */
+
+.Wrapper {
+  position: absolute;
+  width: 320px;
+  height: 205px;
+  left: 40%;
+  top: 40%;
+}
+
+.Wrapper h1{
+  position: absolute;
+  width: 304px;
+  height: 29px;
+  left: 8px;
+  top: 92px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.Wrapper input {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.Input{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  top: 161px;
+
+  background: #0A0A0A;
+  border: 1px solid #292929;
+  border-radius: 4px;
+} 
+
+.Input[type=text] {
+  padding: 18px 20px;
+}
+
+/* User Card */
+
+.CardWrapper {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 548px;
+  height: 333px;
+  left: 32%;
+  top: 20%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.UserCard {
+  position: absolute;
+
+  height: 277px;
+  width: 548px;
+  left: 0px;
+  top: 56px;
+
+  background: #0A0A0A;
+  border: 1px solid #292929;
+  border-radius: 4px;
+}
+
+.NumberData {
+  height: 277px;
+  width: 548px;
+  
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+
+
+.Header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 45.05%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Avatar {
+  position: absolute;
+
+  height: 112px;
+  width: 112px;
+  top: 0px;
+
+  border-radius: 100px;
+}
+
+.Username {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  margin-bottom: 0px;
+
+  color: #FFFFFF;
+}
+
+.Tag {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  margin-bottom: 4px;
+}
+
+.LinkGroup {
+  position: absolute;
+
+  right: 2%;
+  top: 5.62%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-content: space-between;
+}
+
+.Link {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+  padding: 6.67px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #E5E5E5;
+}
+
+/* Repository */
+
+.Repos {
+  position: absolute;
+
+  height: 277px;
+  width: 548px;
+  top: 347px;
+  
+  text-align: center;
+}
+
+.RepoTitle {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.RepoBlock {
+  box-sizing: border-box;
+
+  height: 91px;
+  width: 548px;
+
+  text-align: left;
+  text-decoration: none;
+
+  padding-left: 26px;
+  margin-bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #0A0A0A;
+  border: 1px solid #292929;
+  border-radius: 4px;
+
+  color: #FFFFFF;
+}
+
+.RepoBlock:hover {
+  color:#0A0A0A;
+  background: #FFFFFF;
+  border: 1px solid #292929;
+  border-radius: 4px;
+}
+
+.RepoListTitle {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.Alt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ACACAC;
+}
+
+.Stars {
+  position: absolute;
+
+  margin-right: 25px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  align-self: flex-end;
+}
+
+/* Skeleton */
+
+.SkeletonRepoBlock {
+  box-sizing: border-box;
+
+  position: relative;
+
+  height: 91px;
+  width: 548px;
+ 
+  top: 71px;
+
+  padding-left: 26px;
+  margin-bottom: 15px;
+
+  background: #0A0A0A;
+  border: 1px solid #292929;
+  border-radius: 4px;
+}
+
+/* Error */
+
+.ErrorMessage{
+  box-sizing: border-box;
+
+  position: fixed;
+
+  width: 344px;
+  height: 78px;
+
+  right: 2%;
+  bottom: 3%;
+
+  background: #842323;
+  border: 1px solid #CB7474;
+  border-radius: 4px;
+}
+
+.ErrorMessageText {
+  margin-left: 18px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
